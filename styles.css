@@ -70,7 +70,7 @@ a:hover{
     background-image: url(assets/hero-bg.png);
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+  
 }
 
 .banner-container {
@@ -84,6 +84,8 @@ a:hover{
 
 .banner-container h1{
     color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
 }
 
 .banner-container p{
@@ -160,4 +162,81 @@ a:hover{
 .Access:hover{
     background-color: burlywood;
 
+}
+#notes{
+    padding: 46px;
+
+}
+.notes-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.notes-heading h2{
+    padding-top: 46px;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    color: #001931;
+   font-weight: 700;
+   font-size: 48px;
+
+   
+}
+.notes-heading  p{
+    padding-top: 16px;
+    text-align: center;
+    font-size:16px ;
+    font-weight: 400;
+    justify-content: center;
+    color: #627382;
+    margin-bottom: 46px;
+}
+
+.card-box{
+  display: flex; 
+    justify-content: center;
+    gap: 24px;
+    
+}
+.card-box .notes-card{
+    padding-top: 46px;
+    max-width: 1360px;
+    text-align: center;
+    color: #001931; 
+    width: 322px;
+    height: 300px;
+    box-shadow:0px 0px 8px 0px #cec6c6; 
+    padding: 24px;
+    border-radius: 8px;
+   
+}
+.notes-card h3{
+    color: #001931;
+    line-height: 19px;
+    text-align: center;
+    height: 29px;
+    width: 200px;
+    padding: 19px;
+    margin-bottom: auto;
+   
+}
+.notes-card p{
+    justify-content: center;
+    color: #627382;
+    text-align: center;
+    font-size:16px ;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 46px;
+    padding-top: 16px;
+
+}
+.notes-card img{
+    justify-content: center;
+    max-width: 44px;
+    background-color:#F95555;
 }
