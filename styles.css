@@ -275,4 +275,49 @@ a:hover{
     color: #001931;
     margin: 0 auto;
 }
+.ready{
+    padding: 50px;
+    text-align: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin:0px 16px 0px 16px;
+
+
+}
+.ready p{
+
+    color: #627382;
+}
+.social{
+    padding-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social div{
+    padding-top:10px ;
+}
+.finish{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer{
+    
+    background-color: rgb(10, 10, 18);
+    padding: 120px 120px 30px 120px;
+    gap: 80px;
+    
+
+}
+.circle_logo{
+   
+    background-color: #FFFFFF;
+    border-radius:50%;
+    padding: 2px;
+}
+.copy{
+    padding-top: 50px;
+    text-align: center;
+}
 
